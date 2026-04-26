@@ -1,3 +1,5 @@
+# TODO: Make generated .o files go inside build/ dir to not clutter src/
+
 BINARY  := main
 CC      := gcc
 CXX     := g++
