@@ -9,7 +9,7 @@ RLIMGUI_DIR    := $(THIRDPARTY_DIR)/rlImGui
 
 RAYLIB_LIB  := $(RAYLIB_DIR)/src/libraylib.a
 CIMGUI_LIB  := $(CIMGUI_DIR)/libcimgui.a
-RLIMGUI_OBJ := $(RLIMGUI_DIR)/rlImGui.o
+RLIMGUI_OBJ := src/rlImGui.o
  
 INCLUDES := \
     -Isrc \
