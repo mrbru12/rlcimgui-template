@@ -5,7 +5,7 @@ A project template in C for Raylib + Dear ImGui.
 
 ## Introduction
 
-This template is meant to serve as quick way of setting up a C project (no stinky C++!) using [Dear ImGui](https://github.com/ocornut/imgui) with [Raylib](https://github.com/raysan5/raylib) as a backend, which has proven to be quite a boring (and somewhat complex) thing to do due to some pesky compilation problems that might arise. :)
+This template is meant to serve as quick way of setting up a C project (no stinky C++!) using [Dear ImGui](https://github.com/ocornut/imgui) with [Raylib](https://github.com/raysan5/raylib) as a backend, which has proven to be quite a boring (and somewhat complex) thing to do due to some pesky compilation problems that might arise. g++ is used to build ImGui related stuff, but after that everything uses plain gcc! :)
 
 ## Submodules
 
@@ -21,7 +21,7 @@ To use ImGui in C with Raylib we need 3 libraries. All of them are already inclu
 ```bash
 $ git clone --recurse-submodules https://github.com/mrbru12/rlcimgui-template.git
 ```
-> The --recurse-submodules flag is needed to clone all the submodules.
+> The --recurse-submodules flag is needed to clone all the submodules. If you cloned without it, run `git submodule update --init --recursive`.
 ```bash
 $ cd cozy-books
 ```
