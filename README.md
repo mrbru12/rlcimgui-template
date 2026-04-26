@@ -21,7 +21,7 @@ To use ImGui in C with Raylib we need 3 libraries. All of them are already inclu
 ```bash
 $ git clone --recurse-submodules https://github.com/mrbru12/rlcimgui-template.git
 ```
-> The --recurse-submodules flag is needed to clone all the submodules. If you cloned without it, or if you created a new repository using the github **template** feature then run `git submodule update --init --recursive`.
+> The --recurse-submodules flag is needed to clone all the submodules. If you cloned without it, or <u>if you created a new repository using the github **template** feature</u>, then run `git submodule update --init --recursive`.
 ```bash
 $ cd rlcimgui-template
 ```
