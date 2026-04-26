@@ -23,7 +23,7 @@ $ git clone --recurse-submodules https://github.com/mrbru12/rlcimgui-template.gi
 ```
 > The --recurse-submodules flag is needed to clone all the submodules. If you cloned without it, run `git submodule update --init --recursive`.
 ```bash
-$ cd cozy-books
+$ cd rlcimgui-template
 ```
 ```bash
 $ make
